@@ -1,5 +1,5 @@
-# aws-security
-This repository is used for hands-on cloud security training.
+# serverless
+This repository is used for hands-on cloud security training on serverless computing in AWS.
 
 It is based on https://github.com/serverless/examples/tree/master/aws-python-simple-http-endpoint
 
