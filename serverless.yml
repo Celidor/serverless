@@ -1,4 +1,4 @@
-service: hello-serverless-training
+service: serverless-training
 
 frameworkVersion: ">=1.2.0 <2.0.0"
 
@@ -7,9 +7,9 @@ provider:
   runtime: python2.7
 
 functions:
-  hello:
-          handler: handler.endpoint
-          events:
-          - http:
-            path: hello
-            method: get
+  currentTime:
+    handler: handler.endpoint
+    events:
+      - http:
+          path: ping
+          method: get
