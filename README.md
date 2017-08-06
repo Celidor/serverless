@@ -8,7 +8,7 @@ Prerequisites:
 *	Node.js
 *	AWS credentials installed with AWS CLI
 *	AWS account with appropriate IAM rights
-*	Install serverless Framework
+*	Install Serverless Framework
 ```
 $ npm install -g serverless
 ```
