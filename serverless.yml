@@ -11,5 +11,5 @@ functions:
           handler: handler.endpoint
           events:
           - http:
-          path: hello
-          method: get
+            path: hello
+            method: get
